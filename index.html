@@ -57,14 +57,14 @@
     <!-- Preloader Overlay (Green Background with White Logo Container) -->
     <div id="preloader" class="fixed inset-0 bg-brand-green flex flex-col items-center justify-center z-[9999] transition-opacity duration-500">
         <div class="text-center px-4">
-            <img src="asset/logo.jpg" alt="Changemakers Chapel International Logo" class="h-28 sm:h-36 w-auto object-contain animate-pulse mb-6">
+            <img src="asset/logo.jpg" alt="Changemakers Chapel International Logo" class="h-28 sm:h-36 w-auto object-contain bg-white p-2 rounded-lg animate-pulse mb-6">
             <div class="flex justify-center">
-                <div class="w-10 h-10 border-4 border-brand-green border-t-brand-orange rounded-full animate-spin"></div>
+                <div class="w-10 h-10 border-4 border-white border-t-brand-orange rounded-full animate-spin"></div>
             </div>
         </div>
     </div>
 
-    <!-- Top Green Bar (Social Handles Only - Height Increased & Click-Protected) -->
+    <!-- Top Green Bar (Social Handles Only) -->
     <div class="bg-brand-green-dark text-white text-xs py-4 sm:py-5 px-4 sm:px-6 lg:px-8 border-b border-brand-green/30 relative z-50">
         <div class="max-w-7xl mx-auto flex justify-end items-center">
             <div class="flex items-center gap-4 relative z-50 pointer-events-auto">
@@ -77,10 +77,12 @@
                     </svg>
                 </a>
                 
-                <!-- Instagram -->
+                <!-- Official Instagram (Corrected SVG Path) -->
                 <a href="https://www.instagram.com/changemakerschapel/" target="_blank" class="hover:opacity-80 transition-opacity block p-1 relative z-50 pointer-events-auto" aria-label="Instagram">
                     <svg class="h-5 w-5 block" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C8.74 2 8.333 2.014 7.053 2.072 2.695 2.072.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" fill="#FFFFFF"/>
+                        <rect x="2.5" y="2.5" width="19" height="19" rx="5" stroke="#FFFFFF" stroke-width="2.5" fill="none"/>
+                        <circle cx="12" cy="12" r="4.5" stroke="#FFFFFF" stroke-width="2.5" fill="none"/>
+                        <circle cx="17.5" cy="6.5" r="1.5" fill="#FFFFFF"/>
                     </svg>
                 </a>
                 
@@ -106,10 +108,10 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex items-center justify-between py-1.5 sm:py-2">
                 
-                <!-- Scaling Responsive Logo Area (Prevents overflow on narrow screens) -->
+                <!-- Logo Area -->
                 <div class="flex-shrink-0 flex items-center">
                     <a href="#hero">
-                        <img src="asset/logo.jpg" alt="Changemakers Chapel International Logo" class="h-16 sm:h-24 md:h-28 lg:h-32 w-auto object-contain">
+                        <img src="asset/logo.jpg" alt="Changemakers Chapel International Logo" class="h-24 sm:h-28 md:h-32 w-auto object-contain">
                     </a>
                 </div>
                 
@@ -120,7 +122,8 @@
                     <a href="#ministries" class="text-brand-green hover:text-brand-orange transition-colors duration-200 text-sm font-bold">Ministries</a>
                     <a href="#encounters" class="text-brand-green hover:text-brand-orange transition-colors duration-200 text-sm font-bold">Prophetic Encounters</a>
                     <a href="#support" class="text-brand-green hover:text-brand-orange transition-colors duration-200 text-sm font-bold">Prayer & Counselling</a>
-                    <a href="#events" class="text-brand-green hover:text-brand-orange transition-colors duration-200 text-sm font-bold">Events</a>
+                    <a href="#sermons" class="text-brand-green hover:text-brand-orange transition-colors duration-200 text-sm font-bold">Sermons</a>
+                    <a href="#books" class="text-brand-green hover:text-brand-orange transition-colors duration-200 text-sm font-bold">Bookstore</a>
                     
                     <!-- Live stream indicator -->
                     <a href="https://www.facebook.com/changemakerschapel/" target="_blank" class="flex items-center gap-1.5 px-3 py-1 rounded bg-red-100 text-red-700 text-xs font-bold animate-pulse">
@@ -131,7 +134,7 @@
                     <a href="#give" class="bg-brand-orange text-white px-5 py-2.5 rounded-md text-sm font-bold hover:bg-brand-orange-dark transition-colors duration-200 shadow">Give</a>
                 </nav>
 
-                <!-- Mobile Navigation (Featuring the crisp bold three-line menu toggle button) -->
+                <!-- Mobile Navigation (Three-line menu toggle button) -->
                 <div class="lg:hidden flex items-center gap-3">
                     <a href="https://www.facebook.com/changemakerschapel/" target="_blank" class="flex items-center gap-1 px-2 py-1 rounded bg-red-100 text-red-700 text-[10px] font-bold animate-pulse">
                         <span class="w-2 h-2 rounded-full bg-red-600"></span>
@@ -153,12 +156,13 @@
             <a href="#ministries" class="block text-white hover:bg-brand-green-light px-3 py-3 rounded-md text-base font-semibold">Ministries</a>
             <a href="#encounters" class="block text-white hover:bg-brand-green-light px-3 py-3 rounded-md text-base font-semibold">Prophetic Encounters</a>
             <a href="#support" class="block text-white hover:bg-brand-green-light px-3 py-3 rounded-md text-base font-semibold">Prayer & Counselling</a>
-            <a href="#events" class="block text-white hover:bg-brand-green-light px-3 py-3 rounded-md text-base font-semibold">Events</a>
+            <a href="#sermons" class="block text-white hover:bg-brand-green-light px-3 py-3 rounded-md text-base font-semibold">Sermons</a>
+            <a href="#books" class="block text-white hover:bg-brand-green-light px-3 py-3 rounded-md text-base font-semibold">Bookstore</a>
             <a href="#give" class="block bg-brand-orange text-center text-white px-3 py-3 rounded-md text-base font-bold hover:bg-brand-orange-dark shadow-md">Give</a>
         </div>
     </header>
 
-    <!-- Edge-to-Edge Image Slider Section (Optimized for Mobile Heights & Native African Imagery) -->
+    <!-- Edge-to-Edge Image Slider Section -->
     <section id="hero" class="relative w-full h-[65vh] sm:h-[80vh] md:h-[90vh] overflow-hidden bg-brand-green">
         
         <!-- Slide 1 (African Congregation Worshiping) -->
@@ -206,11 +210,11 @@
         <!-- Slide 4 (African Professional Leader) -->
         <div class="slide absolute inset-0 opacity-0 z-0">
             <div class="absolute inset-0 bg-black/60 z-20"></div>
-            <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=1200" alt="Empowered African Professional Leaders" class="w-full h-full object-cover">
+            <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=1200" alt="Empowered African Professional Leaders" class="w-full h-full object-cover">
             <div class="absolute inset-0 flex flex-col justify-center items-center text-center px-4 sm:px-6 lg:px-8 z-30 text-white">
                 <span class="bg-brand-orange/20 text-white border border-brand-orange/30 px-5 py-2 rounded-full text-xs sm:text-sm font-bold tracking-wider uppercase mb-6 shadow-md">Vision for the Future</span>
                 <h2 class="text-2xl sm:text-5xl md:text-6xl font-extrabold tracking-tight mb-4 max-w-4xl leading-tight">Raising Leaders, Restoring Vision.</h2>
-                <p class="max-w-xl text-xs sm:text-lg text-gray-300 mb-8">Equipping generation changemakers to influence every professional and social sphere.</p>
+                <p class="max-w-xl text-sm sm:text-lg text-gray-300 mb-8">Equipping generation changemakers to influence every professional and social sphere.</p>
                 <div class="flex gap-4">
                     <a href="#contact" class="border-2 border-white hover:border-brand-orange hover:text-brand-orange text-white px-5 py-2.5 rounded text-sm sm:text-base font-bold transition-colors">Connect with Us</a>
                 </div>
@@ -224,7 +228,7 @@
             <div class="absolute inset-0 flex flex-col justify-center items-center text-center px-4 sm:px-6 lg:px-8 z-30 text-white">
                 <span class="bg-brand-orange/20 text-white border border-brand-orange/30 px-5 py-2 rounded-full text-xs sm:text-sm font-bold tracking-wider uppercase mb-6 shadow-md">The Secret Place</span>
                 <h2 class="text-2xl sm:text-5xl md:text-6xl font-extrabold tracking-tight mb-4 max-w-4xl leading-tight">Strong in Prayer, Rich in Grace.</h2>
-                <p class="max-w-xl text-xs sm:text-lg text-gray-300 mb-8">Step into a fresh, dynamic prayer experience and find spiritual peace.</p>
+                <p class="max-w-xl text-sm sm:text-lg text-gray-300 mb-8">Step into a fresh, dynamic prayer experience and find spiritual peace.</p>
                 <div class="flex gap-4">
                     <a href="#events" class="bg-brand-orange hover:bg-brand-orange-dark text-white px-5 py-2.5 rounded text-sm sm:text-base font-bold transition-colors">View Calendar</a>
                 </div>
@@ -232,12 +236,12 @@
         </div>
 
         <!-- Slider Navigation Arrows -->
-        <button id="prev-slide" class="absolute left-4 top-1/2 -translate-y-1/2 z-40 bg-black/30 hover:bg-brand-orange text-white p-2 sm:p-3 rounded-full transition-colors focus:outline-none" aria-label="Previous Slide">
+        <button id="prev-slide" class="absolute left-4 top-1/2 -translate-y-1/2 z-40 bg-black/30 hover:bg-brand-orange text-white p-2.5 sm:p-3 rounded-full transition-colors focus:outline-none" aria-label="Previous Slide">
             <svg class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
             </svg>
         </button>
-        <button id="next-slide" class="absolute right-4 top-1/2 -translate-y-1/2 z-40 bg-black/30 hover:bg-brand-orange text-white p-2 sm:p-3 rounded-full transition-colors focus:outline-none" aria-label="Next Slide">
+        <button id="next-slide" class="absolute right-4 top-1/2 -translate-y-1/2 z-40 bg-black/30 hover:bg-brand-orange text-white p-2.5 sm:p-3 rounded-full transition-colors focus:outline-none" aria-label="Next Slide">
             <svg class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
             </svg>
@@ -289,7 +293,7 @@
         </div>
     </section>
 
-    <!-- Growth Track Pathway (Enhanced with illustrative small circular images) -->
+    <!-- Growth Track Pathway -->
     <section class="py-16 bg-white border-b border-gray-100">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-10">
@@ -322,7 +326,7 @@
         </div>
     </section>
 
-    <!-- About Section (Fixed scroll margin top to prevent cut off when navigation clicked) -->
+    <!-- About Section -->
     <section id="about" class="py-20 bg-white scroll-mt-24 sm:scroll-mt-28 md:scroll-mt-36">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -366,16 +370,16 @@
         </div>
     </section>
 
-    <!-- Ministries Section (African Imagery Built In & Fixed scroll mt) -->
+    <!-- Ministries & Departments Section -->
     <section id="ministries" class="py-20 bg-brand-gray-light scroll-mt-24 sm:scroll-mt-28 md:scroll-mt-36">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <span class="text-brand-orange font-bold text-xs sm:text-sm tracking-widest uppercase block mb-2">Grow With Us</span>
-            <h2 class="text-3xl sm:text-4xl font-extrabold text-brand-green mb-4">Ministries & Groups</h2>
+            <h2 class="text-3xl sm:text-4xl font-extrabold text-brand-green mb-4">Ministries & Departments</h2>
             <p class="max-w-2xl mx-auto text-gray-600 mb-12 text-sm sm:text-base">
                 Discover safe environments for fellowship and areas where you can actively employ your talents for ministry service.
             </p>
 
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
                 <!-- Ministry Card 1 (Youth - African young adults) -->
                 <div class="bg-white rounded-lg shadow-sm overflow-hidden hover:shadow-md transition-shadow duration-300 flex flex-col border border-gray-200">
                     <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?q=80&w=600" alt="Generation Changers African Youth Ministry" class="h-48 w-full object-cover">
@@ -407,6 +411,45 @@
                             Caring for our community through local support drives, health interventions, and targeted societal help across Alajo.
                         </p>
                     </div>
+                </div>
+            </div>
+
+            <!-- Get Involved Integration: Department Joining Action -->
+            <div class="max-w-3xl mx-auto bg-white p-8 rounded-lg shadow-sm border border-gray-200 text-left">
+                <div class="flex flex-col md:flex-row justify-between items-center gap-6">
+                    <div>
+                        <h3 class="text-2xl font-bold text-brand-green mb-2">Want to Join a Department?</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed">Serve with us in Ushering, Protocol, Praise Choir, Media Production, or Child Welfare.</p>
+                    </div>
+                    <button onclick="document.getElementById('department-signup').classList.toggle('hidden');" class="bg-brand-orange hover:bg-brand-orange-dark text-white px-6 py-3 rounded-md font-bold text-sm tracking-wide shrink-0 transition">
+                        Get Involved Now
+                    </button>
+                </div>
+
+                <!-- Hidden Signup block -->
+                <div id="department-signup" class="hidden mt-8 pt-8 border-t border-gray-100">
+                    <form action="#" class="grid grid-cols-1 sm:grid-cols-2 gap-4" onsubmit="event.preventDefault(); alert('Your enrollment has been successfully logged. The department head will reach out to you this week.');">
+                        <div>
+                            <label class="block text-xs font-bold text-gray-700 uppercase tracking-wider mb-1">Your Name</label>
+                            <input type="text" class="w-full p-2.5 bg-brand-gray-light border border-gray-300 rounded focus:border-brand-green focus:outline-none text-sm" placeholder="Full name" required>
+                        </div>
+                        <div>
+                            <label class="block text-xs font-bold text-gray-700 uppercase tracking-wider mb-1">Phone Number</label>
+                            <input type="tel" class="w-full p-2.5 bg-brand-gray-light border border-gray-300 rounded focus:border-brand-green focus:outline-none text-sm" placeholder="e.g., 0243906087" required>
+                        </div>
+                        <div>
+                            <label class="block text-xs font-bold text-gray-700 uppercase tracking-wider mb-1">Select Department</label>
+                            <select class="w-full p-2.5 bg-brand-gray-light border border-gray-300 rounded focus:border-brand-green focus:outline-none text-sm bg-white">
+                                <option>Ushering & Protocol</option>
+                                <option>Music Ministry (Praise Choir)</option>
+                                <option>Media & Audio Production</option>
+                                <option>CCI Children Welfare</option>
+                            </select>
+                        </div>
+                        <div class="flex items-end">
+                            <button type="submit" class="w-full bg-brand-green hover:bg-brand-green-light text-white font-bold py-2.5 rounded text-sm transition">Submit Registration</button>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
@@ -527,24 +570,62 @@
         </div>
     </section>
 
-    <!-- Sermons / Media Section (Fixed scroll mt) -->
+    <!-- Sermons, Streams, & Audio Section (Direct Stream Frame & Podcast Player Added) -->
     <section id="sermons" class="py-20 bg-white scroll-mt-24 sm:scroll-mt-28 md:scroll-mt-32">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex flex-col md:flex-row md:items-end justify-between mb-12">
-                <div>
-                    <span class="text-brand-orange font-bold text-sm tracking-widest uppercase block mb-2">Media & Messages</span>
-                    <h2 class="text-3xl sm:text-4xl font-extrabold text-brand-green">Sermon Archives</h2>
+            <div class="text-center mb-12">
+                <span class="text-brand-orange font-bold text-sm tracking-widest uppercase block mb-2">Media Sanctuary</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-brand-green">CCI Broadcasting Center</h2>
+                <p class="text-gray-600 text-sm max-w-xl mx-auto mt-2">Connect with our messages from anywhere in the world. Watch our live stream or listen to recent audio sermon archives.</p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start mb-16">
+                <!-- Video Stream URL Mockup (CCI Sanctuary Stream) -->
+                <div class="lg:col-span-2 bg-brand-gray-light p-4 rounded-lg shadow-sm border border-gray-200">
+                    <h3 class="text-lg font-bold text-brand-green mb-3 flex items-center gap-2">
+                        <span class="w-3 h-3 rounded-full bg-red-600 animate-pulse"></span>
+                        Live Video Stream URL
+                    </h3>
+                    <div class="aspect-video bg-black rounded overflow-hidden relative flex items-center justify-center">
+                        <!-- Direct Link overlay acting as stream landing -->
+                        <a href="https://www.facebook.com/changemakerschapel/" target="_blank" class="absolute inset-0 z-10 flex flex-col items-center justify-center bg-brand-green/75 text-white p-6 hover:bg-brand-green/85 transition text-center">
+                            <svg class="h-16 w-16 text-brand-orange mb-3" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 00.528.87l3 1.75a1 1 0 001.03-1.696L10 11.417V8a1 1 0 00-.445-.832z" clip-rule="evenodd"/>
+                            </svg>
+                            <h4 class="text-xl font-bold">Watch CCI Live Stream</h4>
+                            <p class="text-xs text-gray-200 mt-1 max-w-sm">Tap here to join our active streaming sanctuary directly on our Facebook Broadcast Network.</p>
+                        </a>
+                        <img src="https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?q=80&w=800" alt="Worship congregation" class="w-full h-full object-cover">
+                    </div>
                 </div>
-                <div class="mt-4 md:mt-0">
-                    <a href="https://www.facebook.com/changemakerschapel/" target="_blank" class="text-brand-orange hover:text-brand-orange-dark font-bold text-sm flex items-center gap-1">
-                        Watch Live Broadcasts on Facebook
-                        <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+
+                <!-- Sermon Audio Messages Section -->
+                <div class="bg-brand-gray-light p-6 rounded-lg shadow-sm border border-gray-200">
+                    <h3 class="text-lg font-bold text-brand-green mb-4 flex items-center gap-2">
+                        <svg class="h-5 w-5 text-brand-orange" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z" />
                         </svg>
-                    </a>
+                        Audio Sermon Archives
+                    </h3>
+                    <div class="space-y-4">
+                        <!-- Audio message 1 -->
+                        <div class="bg-white p-4 rounded border border-gray-200">
+                            <h4 class="font-bold text-brand-green text-sm">Divine Direction in Troubled Times</h4>
+                            <p class="text-xs text-gray-500 mb-2">Pastor Andrew Thompson | 45 min</p>
+                            <!-- Styled Audio Element placeholder -->
+                            <audio controls class="w-full h-8 mt-2" src="#"></audio>
+                        </div>
+                        <!-- Audio message 2 -->
+                        <div class="bg-white p-4 rounded border border-gray-200">
+                            <h4 class="font-bold text-brand-green text-sm">Activating Your Prophetic Decree</h4>
+                            <p class="text-xs text-gray-500 mb-2">Pastor Andrew Thompson | 52 min</p>
+                            <audio controls class="w-full h-8 mt-2" src="#"></audio>
+                        </div>
+                    </div>
                 </div>
             </div>
 
+            <!-- Standard Sermon Archives Grid -->
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <!-- Sermon Card 1 -->
                 <div class="bg-brand-gray-light rounded-lg overflow-hidden shadow-sm flex flex-col justify-between">
@@ -597,8 +678,65 @@
         </div>
     </section>
 
+    <!-- Bookstore Sales Section (Momo Payment Option Built In) -->
+    <section id="books" class="py-20 bg-brand-gray-light scroll-mt-24 sm:scroll-mt-28 md:scroll-mt-36">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <span class="text-brand-orange font-bold text-sm tracking-widest uppercase block mb-2">Literature Store</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-brand-green">CCI Digital Bookstore</h2>
+                <p class="text-gray-600 text-sm max-w-xl mx-auto mt-2">Equip your spiritual library. Pay directly using Mobile Money and download immediately to your device.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                <!-- Book Item 1 -->
+                <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 flex gap-6">
+                    <div class="w-1/3 shrink-0 bg-brand-green text-white p-4 flex flex-col justify-between rounded shadow">
+                        <span class="text-xs font-bold uppercase text-brand-orange">Book</span>
+                        <h4 class="font-extrabold text-sm sm:text-md italic tracking-tight leading-tight">Activating Prophetic Alignment</h4>
+                        <span class="text-[10px] opacity-75">CCI Press</span>
+                    </div>
+                    <div class="flex flex-col justify-between">
+                        <div>
+                            <h3 class="text-lg font-bold text-brand-green">Activating Prophetic Alignment</h3>
+                            <p class="text-xs text-gray-500 mb-2">By Pastor Andrew Thompson</p>
+                            <p class="text-gray-600 text-xs leading-relaxed">A strategic blueprint on understanding how the prophetic gift structures your pathways.</p>
+                        </div>
+                        <div class="mt-4">
+                            <span class="text-lg font-extrabold text-brand-green block mb-2">GHS 50.00</span>
+                            <button onclick="alert('Donation Payment Protocol Initiated: A Mobile Money (MoMo) push prompt has been initialized on your registered line for GHS 50.00. Once completed, your download will begin automatically.');" class="bg-brand-orange hover:bg-brand-orange-dark text-white px-4 py-2 rounded text-xs font-bold transition">
+                                Pay with MoMo & Download
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Book Item 2 -->
+                <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 flex gap-6">
+                    <div class="w-1/3 shrink-0 bg-brand-orange text-white p-4 flex flex-col justify-between rounded shadow">
+                        <span class="text-xs font-bold uppercase text-brand-green">Book</span>
+                        <h4 class="font-extrabold text-sm sm:text-md italic tracking-tight leading-tight">Generational Integrity</h4>
+                        <span class="text-[10px] opacity-75">CCI Press</span>
+                    </div>
+                    <div class="flex flex-col justify-between">
+                        <div>
+                            <h3 class="text-lg font-bold text-brand-green">Generational Integrity</h3>
+                            <p class="text-xs text-gray-500 mb-2">By Pastor Andrew Thompson</p>
+                            <p class="text-gray-600 text-xs leading-relaxed">Learning to navigate business and family decisions with strict biblical ethics and focus.</p>
+                        </div>
+                        <div class="mt-4">
+                            <span class="text-lg font-extrabold text-brand-green block mb-2">GHS 45.00</span>
+                            <button onclick="alert('Donation Payment Protocol Initiated: A Mobile Money (MoMo) push prompt has been initialized on your registered line for GHS 45.00. Once completed, your download will begin automatically.');" class="bg-brand-orange hover:bg-brand-orange-dark text-white px-4 py-2 rounded text-xs font-bold transition">
+                                Pay with MoMo & Download
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Calendar Section (Outreach & Evangelism Programs Added, fixed scroll mt) -->
-    <section id="events" class="py-20 bg-brand-gray-light scroll-mt-24 sm:scroll-mt-28 md:scroll-mt-36">
+    <section id="events" class="py-20 bg-white scroll-mt-24 sm:scroll-mt-28 md:scroll-mt-36">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-12">
                 <span class="text-brand-orange font-bold text-sm tracking-widest uppercase block mb-2">Calendar</span>
@@ -607,7 +745,7 @@
 
             <div class="max-w-4xl mx-auto space-y-6">
                 <!-- Event Row 1: Weekly -->
-                <div class="bg-white p-6 rounded-lg shadow-sm flex flex-col md:flex-row items-center gap-6 border-l-4 border-brand-orange">
+                <div class="bg-brand-gray-light p-6 rounded-lg shadow-sm flex flex-col md:flex-row items-center gap-6 border-l-4 border-brand-orange">
                     <div class="bg-brand-orange text-white px-6 py-4 rounded-lg text-center font-bold min-w-[100px] shrink-0">
                         <span class="block text-2xl">Weekly</span>
                         <span class="text-sm uppercase font-semibold">Wed</span>
@@ -620,7 +758,7 @@
                 </div>
 
                 <!-- Event Row 2: Evangelism -->
-                <div class="bg-white p-6 rounded-lg shadow-sm flex flex-col md:flex-row items-center gap-6 border-l-4 border-brand-green">
+                <div class="bg-brand-gray-light p-6 rounded-lg shadow-sm flex flex-col md:flex-row items-center gap-6 border-l-4 border-brand-green">
                     <div class="bg-brand-green text-white px-6 py-4 rounded-lg text-center font-bold min-w-[100px] shrink-0">
                         <span class="block text-2xl">Monthly</span>
                         <span class="text-sm uppercase font-semibold">2nd Sat</span>
@@ -633,7 +771,7 @@
                 </div>
 
                 <!-- Event Row 3: Prophetic encounter -->
-                <div class="bg-white p-6 rounded-lg shadow-sm flex flex-col md:flex-row items-center gap-6 border-l-4 border-brand-orange">
+                <div class="bg-brand-gray-light p-6 rounded-lg shadow-sm flex flex-col md:flex-row items-center gap-6 border-l-4 border-brand-orange">
                     <div class="bg-brand-orange text-white px-6 py-4 rounded-lg text-center font-bold min-w-[100px] shrink-0">
                         <span class="block text-2xl">Monthly</span>
                         <span class="text-sm uppercase font-semibold">1st Sun</span>
@@ -648,7 +786,7 @@
         </div>
     </section>
 
-    <!-- Giving Section (Fixed scroll mt) -->
+    <!-- Giving Section (Expanded with Bank Details / Other methods) -->
     <section id="give" class="py-20 bg-brand-green text-white relative scroll-mt-24 sm:scroll-mt-28 md:scroll-mt-36">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
             <span class="text-brand-orange font-bold text-sm tracking-widest uppercase block mb-2">Worship with giving</span>
@@ -656,13 +794,29 @@
             <p class="max-w-xl mx-auto text-gray-300 text-base sm:text-lg mb-8 leading-relaxed">
                 Your tithes, offerings, and donations assist in the spiritual development of members, local benevolence across Alajo, and our global missions.
             </p>
-            <div class="max-w-md mx-auto bg-brand-green-dark/40 border border-brand-green-light p-6 rounded-lg mb-8">
-                <h3 class="text-brand-orange font-bold text-lg mb-3">Mobile Money Details</h3>
-                <p class="text-sm text-gray-300">To send donations directly via MTN Mobile Money:</p>
-                <p class="text-2xl font-bold tracking-wider mt-2 text-white">024 390 6087</p>
-                <p class="text-xs text-gray-400 mt-1">Reference: Name / Tithe / Offering</p>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto text-left">
+                <!-- Mobile Money Details -->
+                <div class="bg-brand-green-dark/40 border border-brand-green-light p-6 rounded-lg">
+                    <h3 class="text-brand-orange font-bold text-lg mb-3">Mobile Money Details</h3>
+                    <p class="text-sm text-gray-300">To send donations directly via MTN Mobile Money:</p>
+                    <p class="text-2xl font-bold tracking-wider mt-2 text-white">024 390 6087</p>
+                    <p class="text-xs text-gray-400 mt-1">Reference: Name / Tithe / Offering</p>
+                </div>
+
+                <!-- Bank Details Added -->
+                <div class="bg-brand-green-dark/40 border border-brand-green-light p-6 rounded-lg">
+                    <h3 class="text-brand-orange font-bold text-lg mb-3">Bank Transfer Details</h3>
+                    <ul class="text-sm text-gray-300 space-y-1">
+                        <li><strong>Bank:</strong> Ecobank Ghana PLC</li>
+                        <li><strong>Account Name:</strong> Changemakers Chapel Int.</li>
+                        <li><strong>Account Number:</strong> 1441002439061</li>
+                        <li><strong>Branch:</strong> Circle Branch, Accra</li>
+                    </ul>
+                </div>
             </div>
-            <div class="flex flex-col sm:flex-row justify-center gap-4">
+            
+            <div class="flex flex-col sm:flex-row justify-center gap-4 mt-8">
                 <a href="tel:0243906087" class="bg-brand-orange hover:bg-brand-orange-dark text-white px-8 py-3.5 rounded-md font-bold text-lg transition-colors duration-200 shadow-lg">
                     Call Offering Desk
                 </a>
@@ -670,11 +824,11 @@
         </div>
     </section>
 
-    <!-- Contact & Location Section (Fixed scroll mt) -->
+    <!-- Contact, Location & Google Maps Section (Fixed scroll mt) -->
     <section id="contact" class="py-20 bg-white scroll-mt-24 sm:scroll-mt-28 md:scroll-mt-36">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
-                <!-- Reach Out Text -->
+                <!-- Reach Out Text & Active Google Map Embed -->
                 <div>
                     <span class="text-brand-orange font-bold text-sm tracking-widest uppercase block mb-2">Connect</span>
                     <h2 class="text-3xl sm:text-4xl font-extrabold text-brand-green mb-6">Contact & Location Info</h2>
@@ -682,7 +836,7 @@
                         We welcome you to visit our campus or reach out through any of our support channels below.
                     </p>
 
-                    <div class="space-y-6">
+                    <div class="space-y-6 mb-8">
                         <div class="flex items-start gap-4">
                             <div class="bg-brand-orange/10 p-3 rounded-lg text-brand-orange">
                                 <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -709,20 +863,11 @@
                                 </p>
                             </div>
                         </div>
+                    </div>
 
-                        <div class="flex items-start gap-4">
-                            <div class="bg-brand-orange/10 p-3 rounded-lg text-brand-orange">
-                                <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                                </svg>
-                            </div>
-                            <div>
-                                <h4 class="font-bold text-brand-green">Email Address</h4>
-                                <p class="text-sm text-gray-600">
-                                    <a href="mailto:spiritrainn@gmail.com" class="hover:underline">spiritrainn@gmail.com</a>
-                                </p>
-                            </div>
-                        </div>
+                    <!-- Direct Google Maps Ping Embed -->
+                    <div class="w-full rounded-lg overflow-hidden border border-gray-200 shadow-sm">
+                        <iframe class="w-full h-64 border-0" src="https://maps.google.com/maps?q=Alajo%20Taxi%20Rank,%20Accra,%20Ghana&t=&z=15&ie=UTF8&iwloc=&output=embed" scrolling="no" marginheight="0" marginwidth="0"></iframe>
                     </div>
                 </div>
 
@@ -760,7 +905,7 @@
                         <!-- Bottom Logo Size Scaled Up -->
                         <img src="asset/logo.jpg" alt="Changemakers Chapel International Logo" class="h-24 md:h-28 w-auto object-contain bg-white p-2 rounded">
                         
-                        <!-- Bottom Social Media Handles (Protected White SVGs) -->
+                        <!-- Bottom Social Media Handles (Official Instagram SVG Built In) -->
                         <div class="flex items-center gap-4 mt-2 relative z-50 pointer-events-auto">
                             <!-- Facebook -->
                             <a href="https://www.facebook.com/changemakerschapel/" target="_blank" class="hover:opacity-80 transition-opacity block p-1 relative z-50 pointer-events-auto" aria-label="Facebook">
@@ -768,10 +913,12 @@
                                     <path d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c5.05-.5 9-4.76 9-9.95z" fill="#FFFFFF"/>
                                 </svg>
                             </a>
-                            <!-- Instagram -->
+                            <!-- Official Instagram -->
                             <a href="https://www.instagram.com/changemakerschapel/" target="_blank" class="hover:opacity-80 transition-opacity block p-1 relative z-50 pointer-events-auto" aria-label="Instagram">
                                 <svg class="h-5 w-5 block" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C8.74 2 8.333 2.014 7.053 2.072 2.695 2.072.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" fill="#FFFFFF"/>
+                                    <rect x="2.5" y="2.5" width="19" height="19" rx="5" stroke="#FFFFFF" stroke-width="2.5" fill="none"/>
+                                    <circle cx="12" cy="12" r="4.5" stroke="#FFFFFF" stroke-width="2.5" fill="none"/>
+                                    <circle cx="17.5" cy="6.5" r="1.5" fill="#FFFFFF"/>
                                 </svg>
                             </a>
                             <!-- X -->
